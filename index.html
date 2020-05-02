@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ollie's page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/e11564fec4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <script src="base.js"></script>
+    <link rel="stylesheet" href="base.css">
+
+</head>
+
+<body>
+    <!--nav bar-->
+    <nav class="navbar navbar-expand-md  navbar-light fixed-top my-n2 animated fadeInLeftBig">
+        <a class="navbar-brand" id="logo" href="#">
+            <img src="Logo.png" alt="Logo" width="50">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item ">
+                    <a class="nav-link current" id="nav-link-home" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="nav-link-resume" href="#">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="nav-link-services" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="nav-link-blog" href="#">Blog</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" id="nav-link-contact" href="#">Contact</a>
+                </li> -->
+            </ul>
+        </div>
+    </nav>
+
+    <!--main content-->
+    <div class="swapContainer " id="swapContainer">
+        <!--home-->
+        <div class="swapContainer_mainContainer_a container-fluid shadow page current animated bounceIn">
+            <div class="swapContainer_mainContainer_a_rowA row ">
+                <div class="swapContainer_mainContainer_a_rowA_avatar col-md mx-auto">
+                    <img src="PersonalPage.jpg" alt="avatar" class="mx-auto img-thumbnail my-4" width="200"
+                        height="200">
+
+                </div>
+                <div class="swapContainer_mainContainer_a_rowA_description col-md text-light">
+                    <h2 class="swapContainer_mainContainer_a_rowA_description_name pt-3 mx-auto">Ollie Lee</h2>
+                    <h6 class="swapContainer_mainContainer_a_rowA_description_name pt-2 mx-auto">Web Designer</h6>
+                    <div class="swapContainer_mainContainer_a_rowA_description_contact py-2">
+                        <a class="swapContainer_mainContainer_a_rowA_description_contact_icon"
+                            href="mailto:myself.ollie.lee@gmail.com"><i class="far fa-envelope"></i></a>
+                        <a class="swapContainer_mainContainer_a_rowA_description_contact_icon"
+                            href="https://www.linkedin.com/in/ollie-lee/" target="blank"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a class="swapContainer_mainContainer_a_rowA_description_contact_icon"
+                            href="https://github.com/zxas3229" target="blank"><i class="fab fa-github-square"></i></a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="swapContainer_mainContainer_a_rowB row ">
+                <div class="swapContainer_mainContainer_a_rowB_introduction mt-5 ml-3  col-md text-secondary">
+                    <h4 class="mt-n4">About <span class="text-dark">Me</span></h4>
+                    <p>Hello! I'm Ollie Lee.</p>
+                    <p>Now I'm studying in the University of Adelaide.</p>
+                    <p>I specialize in the Frontend development.</p>
+                </div>
+                <div class="swapContainer_mainContainer_a_rowB_info col-md">
+                    <table class="swapContainer_mainContainer_a_rowB_info_class table text-secondary table-hover">
+                        <tbody>
+                            <tr>
+                                <td>Age</td>
+                                <td>21</td>
+
+                            </tr>
+                            <tr>
+                                <td>Residence</td>
+                                <td>Australia</td>
+
+                            </tr>
+                            <tr>
+                                <td>Address</td>
+                                <td>Gray Street, Adelaide</td>
+
+                            </tr>
+                            <tr>
+                                <td>E-mail</td>
+                                <td><a href="mailto:myself.ollie.lee@gmail.com"
+                                        class="swapContainer_mainContainer_a_rowB_info_class_email">myself.ollie.lee@gmail.com</a>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td>Phone</td>
+                                <td>0451880609</td>
+
+                            </tr>
+                        </tbody>
+
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!--resume-->
+        <div class="swapContainer_mainContainer_b container-fluid shadow page animated bounceIn">
+            <!--resume header-->
+            <div class="swapContainer_mainContainer_b_header row ">
+                <h1 class="swapContainer_mainContainer_b_header_title mx-auto my-3">Resume</h1>
+            </div>
+            <!--resume text-->
+            <div class="swapContainer_mainContainer_b_text row">
+                <div class="swapContainer_mainContainer_b_text_education col-md">
+                    <h5 class="mt-3 ml-2 mb-3">Education</h5>
+                    <!--container-->
+                    <div class="swapContainer_mainContainer_b_text_education_container container">
+                        <!--subcontainer-->
+                        <div class="swapContainer_mainContainer_b_text_education_container_subcontainer">
+                            <h6 class="ml-3 mt-2">The University of Adelaide</h6>
+                            <span>2020</span>
+                            <span>Adelaide</span>
+                            <p class="ml-3 mt-2">Studying IT in the University of Adelaide, focus on the Frontend
+                                development</p>
+                        </div>
+                        <div class="swapContainer_mainContainer_b_text_education_container_subcontainer">
+                            <h6 class="ml-3 mt-2">The University of Adelaide</h6>
+                            <span>2020</span>
+                            <span>Adelaide</span>
+                            <p class="ml-3 mt-2">Studying IT in the University of Adelaide, focus on the Frontend
+                                development</p>
+                        </div>
+                        <div class="swapContainer_mainContainer_b_text_education_container_subcontainer">
+                            <h6 class="ml-3 mt-2">The University of Adelaide</h6>
+                            <span>2020</span>
+                            <span>Adelaide</span>
+                            <p class="ml-3 mt-2">Studying IT in the University of Adelaide, focus on the Frontend
+                                development</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swapContainer_mainContainer_b_text_experience col-md">
+                    <h5 class="mt-3 mb-3 ml-2">Experience</h5>
+                    <!--container-->
+                    <div class="swapContainer_mainContainer_b_text_experience_container container">
+                        <!--subcontainer-->
+                        <div class="swapContainer_mainContainer_b_text_experience_container_subcontainer">
+                            <h6 class="ml-3 mt-2">Personal Page</h6>
+                            <span>2020</span>
+                            <span>Adelaide</span>
+                            <p class="ml-3 mt-2">A personal page including five different subpages.</p>
+                        </div>
+                        <div class="swapContainer_mainContainer_b_text_experience_container_subcontainerB"></div>
+                        <div class="swapContainer_mainContainer_b_text_experience_container_subcontainerC"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row"></div>
+        </div>
+        <!--services-->
+        <div class="swapContainer_mainContainer_c container-fluid shadow page animated bounceIn">
+            <!--services header-->
+            <div class="swapContainer_mainContainer_c_header row ">
+                <h1 class="swapContainer_mainContainer_c_header_title mx-auto my-3">Services</h1>
+            </div>
+            <h6 class="my-3 ml-3 mt-5">My <span class="swapContainer_mainContainer_c_services">Services</span></h6>
+            <div class="row mt-3 pt-3">
+                <div class="swapContainer_mainContainer_c_row_description col-md">
+                    <div class="swapContainer_mainContainer_c_row_description_shadow mx-auto">
+                        <img class="ml-5 pt-3 mb-5 mx-auto d-block" src="Frontend.png" width="64" height="64" alt="">
+                    </div>
+                    <h6 class="ml-2 mt-3 mx-auto">Frontend development</h6>
+                    <p class="ml-2 mx-auto">Jquery, React, Bootstrap</p>
+                </div>
+                <div class="swapContainer_mainContainer_c_row_description col-md">
+                    <div class="swapContainer_mainContainer_c_row_description_shadow mx-auto">
+                        <img class="ml-5 pt-3 mb-5 mx-auto d-block" src="Backend.png" width="64" height="64" alt="">
+                    </div>
+                    <h6 class="ml-2 mt-3 mx-auto">Backend development</h6>
+                    <p class="ml-2 mx-auto">Node.js, C#, .NET</p>
+                </div>
+                <div class="swapContainer_mainContainer_c_row_description mt-n2 col-md ">
+                    <div class="swapContainer_mainContainer_c_row_description_shadow mx-auto">
+                        <img class="ml-5 pt-3 mb-5 mx-auto d-block" src="Agile.png" width="77" height="77" alt="">
+                    </div>
+                    <h6 class="ml-2 mt-3 mx-auto">teamwork cooperation</h6>
+                    <p class="ml-2 mx-auto">Agile, Git</p>
+                </div>
+            </div>
+            <div class="row"></div>
+            <div class="row"></div>
+        </div>
+        <!--Blogs-->
+        <div class="swapContainer_mainContainer_d container-fluid shadow page animated bounceIn">
+            <div class="swapContainer_mainContainer_d_header row ">
+                <h1 class="swapContainer_mainContainer_d_header_title mx-auto my-3">Blog</h1>
+            </div>
+            <div class="swapContainer_mainContainer_d_row row">
+                <div class="swapContainer_mainContainer_d_row_articleContainer shadow col-md ">
+                    <a href="#" target="blank"><img class="d-block mx-auto" src="blog_post_1.jpg" alt="blog-post1"
+                            width="360" height="170"></a>
+                    <div class="swapContainer_mainContainer_d_row_articleContainer_date">
+                        <strong>6</strong>
+                        <p>Dec</p>
+                    </div>
+                    <small class="mx-auto">Css</small>
+                    <a href="#" target="blank">
+                        <h6 class="mx-auto">some ways of centering an element</h6>
+                    </a>
+                </div>
+                <div class="swapContainer_mainContainer_d_row_articleContainer shadow col-md ">
+                    <a href="#" target="blank"><img class="d-block mx-auto" src="blog_post_2.jpg" alt="blog-post1"
+                            width="360" height="170"></a>
+                    <div class="swapContainer_mainContainer_d_row_articleContainer_date">
+                        <strong>6</strong>
+                        <p>Dec</p>
+                    </div>
+                    <small class="mx-auto">Bootstrap</small>
+                    <a href="#" target="blank">
+                        <h6 class="mx-auto">some details when using bootstrap</h6>
+                    </a>
+                </div>
+            </div>
+            <div class="swapContainer_mainContainer_d_row row">
+                <div class="swapContainer_mainContainer_d_row_articleContainer shadow col-md ">
+                    <a href="#" target="blank"><img class="d-block mx-auto" src="blog_post_3.jpg" alt="blog-post1"
+                            width="360" height="170"></a>
+                    <div class="swapContainer_mainContainer_d_row_articleContainer_date">
+                        <strong>6</strong>
+                        <p>Dec</p>
+                    </div>
+                    <small class="mx-auto">Css</small>
+                    <a href="#" target="blank">
+                        <h6 class="mx-auto">some ways of centering an element</h6>
+                    </a>
+                </div>
+                <div class="swapContainer_mainContainer_d_row_articleContainer shadow col-md ">
+                    <a href="#" target="blank"><img class="d-block mx-auto" src="blog_post_4.jpg" alt="blog-post1"
+                            width="360" height="170"></a>
+                    <div class="swapContainer_mainContainer_d_row_articleContainer_date">
+                        <strong>6</strong>
+                        <p>Dec</p>
+                    </div>
+                    <small class="mx-auto">Bootstrap</small>
+                    <a href="#" target="blank">
+                        <h6 class="mx-auto">some details when using bootstrap</h6>
+                    </a>
+                </div>
+            </div>
+            <div class="swapContainer_mainContainer_d_row row">
+                <div class="swapContainer_mainContainer_d_row_articleContainer shadow col-md ">
+                    <a href="#" target="blank"><img class="d-block mx-auto" src="blog_post_5.jpg" alt="blog-post1"
+                            width="360" height="170"></a>
+                    <div class="swapContainer_mainContainer_d_row_articleContainer_date">
+                        <strong>6</strong>
+                        <p>Dec</p>
+                    </div>
+                    <small class="mx-auto">Css</small>
+                    <a href="#" target="blank">
+                        <h6 class="mx-auto">some ways of centering an element</h6>
+                    </a>
+                </div>
+                <div class="swapContainer_mainContainer_d_row_articleContainer shadow col-md ">
+                    <a href="#" target="blank"><img class="d-block mx-auto" src="blog_post_6.jpg" alt="blog-post1"
+                            width="360" height="170"></a>
+                    <div class="swapContainer_mainContainer_d_row_articleContainer_date">
+                        <strong>6</strong>
+                        <p>Dec</p>
+                    </div>
+                    <small class="mx-auto">Bootstrap</small>
+                    <a href="#" target="blank">
+                        <h6 class="mx-auto">some details when using bootstrap</h6>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="swapContainer_mainContainer_e"></div> -->
+    </div>
+
+
+</body>
+
+</html>
